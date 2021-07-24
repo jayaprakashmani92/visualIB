@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Dashboard</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+ 
+</head>
+<body>
+    <div class="sidebar">
+        <ul>
+            <li>
+                <img src="assets/img/logo.svg" alt="icon">
+            </li>
+            <li>
+                <img src="assets/img/home.svg" alt="icon">
+                <span>Home</span>
+            </li>
+            <li class="active">
+                <img src="assets/img/folder-Selected.svg" alt="icon">
+                <span>Org Folder</span>
+            </li>
+        </ul>
+    </div>
+    
+    <section id="main">
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container-fluid">
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-bar burger-lines"></span>
+                    <span class="navbar-toggler-bar burger-lines"></span>
+                    <span class="navbar-toggler-bar burger-lines"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end">
+                    <ul class="nav navbar-nav mr-auto">
+                        <form class="navbar-form navbar-left navbar-search-form" role="search">
+                            <div class="input-group">
+                                <img src="assets/img/search.svg" alt="icons">
+                                <input type="text" value="" class="form-control" placeholder="Search...">
+                            </div>
+                        </form>
+                    </ul>
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <img src="assets/img/cog.svg" alt="icon">
+                         </li>
+                         <li class="nav-item">
+                            <img src="assets/img/bell.svg" alt="icon">
+                         </li>
+                        <li class="nav-item">
+                           <img src="assets/img/profile picture.svg" alt="icon">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="breadcumb">
+            <ol class="breadcrumb">
+                <li>   Org Folders <span><img src="assets/img/arrow.png" alt="icons"></span> </li>
+                <li class="active">Jan 2021</li>
+              </ol>
+        </div>
+        <div class="mainFolder">
+            <ul class="pl-0">
+                <li class="mb-2">
+                    <div class="topsection">
+                        <span><img src="assets/img/Folder.svg" alt="icons"> Folder 1</span> <span>(234)</span>
+                    </div>
+                    <div class="bottomsection">
+                        <span>
+                            <img src="assets/img/heart filled.svg" alt="icons">
+                        </span>
+                        <span>
+                            <img src="assets/img/info.svg" class="showInformation" alt="icons">
+                            <img src="assets/img/3 dot.svg" alt="icons">
+                        </span>
+                        
+                    </div>
+                </li>
+                <li class="mb-2">
+                    <div class="topsection">
+                        <span><img src="assets/img/Folder.svg" alt="icons"> Folder 2</span> <span>(234)</span>
+                    </div>
+                    <div class="bottomsection">
+                        <span>
+                            <img src="assets/img/heart filled.svg" alt="icons">
+                        </span>
+                        <span>
+                            <img src="assets/img/info.svg" class="showInformation" alt="icons">
+                            <img src="assets/img/3 dot.svg" alt="icons">
+                        </span>
+                        
+                    </div>
+                </li>
+                <li class="mb-2">
+                    <div class="topsection">
+                        <span><img src="assets/img/Folder.svg" alt="icons"> Folder 3</span> <span>(234)</span>
+                    </div>
+                    <div class="bottomsection">
+                        <span>
+                            <img src="assets/img/heart filled.svg" alt="icons">
+                        </span>
+                        <span>
+                            <img src="assets/img/info.svg" class="showInformation" alt="icons">
+                            <img src="assets/img/3 dot.svg" alt="icons">
+                        </span>
+                        
+                    </div>
+                </li>
+                <li class="mb-2">
+                    <div class="topsection">
+                        <span><img src="assets/img/Folder.svg" alt="icons"> Folder 4</span> <span>(234)</span>
+                    </div>
+                    <div class="bottomsection">
+                        <span>
+                            <img src="assets/img/heart filled.svg" alt="icons">
+                        </span>
+                        <span>
+                            <img src="assets/img/info.svg" class="showInformation" alt="icons">
+                            <img src="assets/img/3 dot.svg" alt="icons">
+                        </span>
+                        
+                    </div>
+                </li>
+            </ul>
+            <div class="infoShow">
+                <div class="headerInfo">
+                   <span>
+                    <img src="assets/img/Folder.svg" alt="icons">
+                    Folder 1
+                   </span>
+                   <img src="assets/img/cross.svg" alt="icon" class="close">
+                </div>
+                <div class="contentSection">
+                    <ul class="nav nav-tabs ml-0" role="tablist">
+                        <li class="nav-item">
+                            <a class="nav-link active" data-toggle="tab" href="#tabs-1" role="tab">Details</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-toggle="tab" href="#tabs-2" role="tab">Comments</a>
+                        </li>
+                       
+                    </ul><!-- Tab panes -->
+                    <div class="tab-content">
+                        <div class="tab-pane active" id="tabs-1" role="tabpanel">
+                            <div class="row">
+                               <div class="col-md-12">
+                                <table class="w-100">
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                Type
+                                            </td>
+                                            <td>
+                                                Org Folder
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                Location
+                                            </td>
+                                            <td>
+                                                Org Folder/ Jan 2021
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                Owner
+                                            </td>
+                                            <td>
+                                                Aditya RM
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                Openned at
+                                            </td>
+                                            <td>
+                                                June 23, 2021
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                Created at
+                                            </td>
+                                            <td>
+                                                May 26, 2021
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                               </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="tabs-2" role="tabpanel">
+                         <ul class="pl-0 commentSection">
+                             <li>
+                                <div class="textsender">
+                                    <span>
+                                        <img src="assets/img/profile picture.svg" alt="">
+                                    <img src="assets/img/comment.svg" alt="">
+                                    </span>
+                                    <h5>Eduardo Benz</h5>
+                                    <p>3 mins ago</p>
+                                </div>
+                                <div class="contentTxt">
+                                    Lorem ipsum dolor sit amet, consectetur adipisc
+                                    ing elit
+                                </div>
+                             </li>
+                             <li>
+                                <div class="textsender">
+                                    <span>
+                                        <img src="assets/img/profile picture.svg" alt="">
+                                    <img src="assets/img/comment.svg" alt="">
+                                    </span>
+                                    <h5>Eduardo Benz</h5>
+                                    <p>3 mins ago</p>
+                                </div>
+                                <div class="contentTxt">
+                                    Lorem ipsum dolor sit amet, consectetur adipisc
+                                    ing elit
+                                </div>
+                             </li>
+                         </ul>
+                         <div class="footerComment">
+                            <div class="textArea">
+                                <textarea name="" id="" cols="30" rows="10"></textarea>
+                            </div>
+                            <div class="submitBtn">
+                                <button type="button" class="cancelBtn">Cancel</button>
+                                <button type="button" class="commentBtn">Comment</button>
+                            </div>
+                         </div>
+
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
